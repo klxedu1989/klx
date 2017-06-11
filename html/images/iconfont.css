@@ -1,0 +1,20 @@
+
+@font-face {font-family: "iconfont";
+  src: url('/skin/bootstrap/fonts-icon-ux/iconfont.eot?t=1472788263'); /* IE9*/
+  src: url('/skin/bootstrap/fonts-icon-ux/iconfont.eot?t=1472788263#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('/skin/bootstrap/fonts-icon-ux/iconfont.woff?t=1472788263') format('woff'), /* chrome, firefox */
+  url('/skin/bootstrap/fonts-icon-ux/iconfont.ttf?t=1472788263') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('/skin/bootstrap/fonts-icon-ux/iconfont.svg?t=1472788263#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-fanhuidingbu:before { content: "\e637"; }
+.icon-erweima:before { content: "\e669"; }
+.icon-kefu:before { content: "\e713"; }
