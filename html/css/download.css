@@ -1,0 +1,224 @@
+html {
+  font-size: 20px; }
+
+.top-nav {
+  width: 100%;
+  height: 4.5rem;
+  background: url(../images/banner_service.jpg) no-repeat;
+  background-size: 100%;
+  transition: 1s all ease; }
+  .top-nav .navbar {
+    width: 100%;
+    box-shadow: 0px 0px 8px #535353;
+    border-color: #535353;
+    border-left: none;
+    border-right: none;
+    background: 0; }
+    .top-nav .navbar .container {
+      padding-top: 0px !important; }
+      .top-nav .navbar .container .navbar-header {
+        padding-top: 14px; }
+        .top-nav .navbar .container .navbar-header .navbar-brand {
+          padding: 0; }
+    .top-nav .navbar .collapse .nav {
+      margin-left: 35px; }
+      .top-nav .navbar .collapse .nav > li {
+        margin-left: 15px;
+        transition: 1s all ease; }
+        .top-nav .navbar .collapse .nav > li:hover {
+          background-color: #1c2b2c;
+          opacity: 0.7; }
+        .top-nav .navbar .collapse .nav > li > a {
+          box-sizing: border-box;
+          height: 65px;
+          padding: 26px;
+          font-size: 18px;
+          line-height: 18px;
+          color: #fff; }
+      .top-nav .navbar .collapse .nav .brand1 {
+        display: none; }
+        .top-nav .navbar .collapse .nav .brand1 a {
+          padding-top: 0;
+          padding-left: 10px !important; }
+
+.middle {
+  width: 100%; }
+  .middle .middle1 {
+    width: 14.233rem;
+    margin: 0 auto; }
+    .middle .middle1 .middle1-top {
+      border-bottom: 1px solid lightgrey;
+      width: 100%;
+      height: 69px;
+      overflow: hidden; }
+      .middle .middle1 .middle1-top a {
+        display: inline-block;
+        width: 136px;
+        padding-left: 12px;
+        box-sizing: border-box;
+        color: #83708b;
+        font-size: 18px;
+        margin-top: 40px; }
+        .middle .middle1 .middle1-top a:active {
+          color: #3ba1b0; }
+    .middle .middle1 .container {
+      margin-top: 45px;
+      margin-left: 28px; }
+      .middle .middle1 .container .row .version .left ul {
+        width: 480px;
+        height: 230px; }
+        .middle .middle1 .container .row .version .left ul li {
+          font-size: 20px;
+          color: grey;
+          overflow: hidden; }
+          .middle .middle1 .container .row .version .left ul li i {
+            display: block;
+            float: left;
+            margin-top: 0px;
+            color: grey; }
+          .middle .middle1 .container .row .version .left ul li span {
+            color: #3ba1b0;
+            width: 246px;
+            display: inline-block; }
+      .middle .middle1 .container .row .version .left .local {
+        display: inline-block;
+        width: 168px;
+        height: 60px;
+        background-color: #3ba1b0;
+        color: #fff;
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 20px; }
+        .middle .middle1 .container .row .version .left .local:hover {
+          background-color: darkblue;
+          text-decoration: none; }
+      .middle .middle1 .container .row .install h4 {
+        margin: 0;
+        margin-bottom: 20px; }
+      .middle .middle1 .container .row .install a {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: grey;
+        margin-top: 20px; }
+        .middle .middle1 .container .row .install a:hover {
+          text-decoration: none; }
+    .middle .middle1 .middle1-bottom {
+      border-top: 1px solid lightgrey;
+      margin-left: 43px; }
+      .middle .middle1 .middle1-bottom p {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .middle .middle1 .middle1-bottom .local {
+        display: inline-block;
+        width: 168px;
+        height: 60px;
+        background-color: #3ba1b0;
+        color: #fff;
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 20px; }
+        .middle .middle1 .middle1-bottom .local:hover {
+          background-color: darkblue;
+          text-decoration: none; }
+  .middle footer {
+    width: 100%;
+    height: 80px;
+    background-color: #333; }
+    .middle footer .col-md {
+      width: 1200px;
+      margin: 0 auto;
+      height: 80px;
+      overflow: hidden;
+      padding-top: 30px; }
+      .middle footer .col-md span {
+        display: inline-block;
+        margin-top: -10px;
+        width: 115px;
+        height: 32px;
+        line-height: 32px;
+        background: url(../images/logo-wint-01.png) no-repeat; }
+      .middle footer .col-md .text {
+        color: #fff;
+        margin: 0 auto;
+        line-height: 20px;
+        margin-left: 2rem; }
+        .middle footer .col-md .text a {
+          color: #fff; }
+
+.c-course {
+  margin-left: 200px; }
+
+h1, h2 {
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 768px) {
+  .c-button {
+    margin-left: 10px;
+    background-color: lightgrey; }
+
+  .c-button span {
+    background-color: #fff !important; }
+
+  .navbar-header {
+    position: relative; }
+
+  .navbar-header .navbar-brand {
+    position: absolute;
+    width: 100px;
+    left: 0; }
+
+  .navbar-collapse {
+    background: linear-gradient(to bottom, #36393c 0%, #3c6171 100%);
+    position: absolute;
+    top: 0;
+    height: 700px;
+    right: 0;
+    box-sizing: border-box; }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #1c2b2c; }
+
+  .top-nav .navbar .collapse .nav li {
+    border-bottom: 1px #86A0B1 solid; }
+    .top-nav .navbar .collapse .nav li a {
+      width: 220px;
+      box-sizing: border-box;
+      padding-left: 30px !important; }
+  .top-nav .navbar .collapse .nav .brand1 {
+    border-bottom: 0; }
+
+  .top-nav .navbar .collapse .nav > li {
+    margin-left: 0; }
+    .top-nav .navbar .collapse .nav > li a {
+      padding: 10px;
+      height: 40px;
+      font-size: 16px; }
+      .top-nav .navbar .collapse .nav > li a:hover {
+        background-color: #1c2b2c; } }
+@media (min-width: 768px) {
+  .brand1 {
+    display: none; } }
+@media (max-width: 992px) {
+  .navbar-right {
+    display: none; } }
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding-right: 0; }
+
+  .top-nav .navbar .container .navbar-header .navbar-brand {
+    height: 30px; }
+
+  .top-nav .navbar .collapse .nav {
+    margin-left: 0; }
+
+  .collapse {
+    padding-left: 0; } }
+
+/*# sourceMappingURL=download.css.map */

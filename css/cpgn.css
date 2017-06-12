@@ -1,0 +1,136 @@
+html {
+  font-size: 20px; }
+
+.top-nav {
+  width: 100%;
+  height: 4.57rem;
+  background: url(../images/feature-list.jpg) no-repeat;
+  background-size: 100%;
+  transition: 1s all ease; }
+  .top-nav .navbar {
+    width: 100%;
+    box-shadow: 0px 0px 8px #535353;
+    border-color: #535353;
+    border-left: none;
+    border-right: none;
+    background: 0; }
+    .top-nav .navbar .container {
+      padding-top: 0px !important; }
+      .top-nav .navbar .container .navbar-header {
+        padding-top: 14px; }
+        .top-nav .navbar .container .navbar-header .navbar-brand {
+          padding: 0; }
+    .top-nav .navbar .collapse .nav {
+      margin-left: 35px; }
+      .top-nav .navbar .collapse .nav > li {
+        margin-left: 15px;
+        transition: 0.5s all ease; }
+        .top-nav .navbar .collapse .nav > li:hover {
+          background-color: #1c2b2c;
+          opacity: 0.7; }
+        .top-nav .navbar .collapse .nav > li > a {
+          box-sizing: border-box;
+          height: 65px;
+          padding: 26px;
+          font-size: 18px;
+          line-height: 18px;
+          color: #fff; }
+      .top-nav .navbar .collapse .nav .brand1 {
+        display: none; }
+        .top-nav .navbar .collapse .nav .brand1 a {
+          padding-top: 0;
+          padding-left: 10px !important; }
+
+.middle {
+  width: 100%;
+  margin: 0,auto; }
+  .middle .p1 {
+    width: 100%;
+    font-size: 24px;
+    color: red;
+    text-align: center; }
+  .middle .img1 {
+    max-width: 876px;
+    margin: 0 auto;
+    display: block; }
+
+.middle2 {
+  width: 100%;
+  color: red;
+  font-size: 14px;
+  display: none; }
+
+.img2 {
+  max-width: 618px; }
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #333; }
+  footer .col-md {
+    width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    overflow: hidden;
+    padding-top: 30px; }
+    footer .col-md span {
+      display: inline-block;
+      margin-top: -10px;
+      width: 115px;
+      height: 32px;
+      line-height: 32px;
+      background: url(../images/logo-wint-01.png) no-repeat; }
+    footer .col-md .text {
+      color: #fff;
+      margin: 0 auto;
+      line-height: 20px;
+      margin-left: 2rem; }
+      footer .col-md .text a {
+        color: #fff; }
+
+@media (max-width: 768px) {
+  .c-button {
+    margin-left: 10px;
+    background-color: lightgrey; }
+
+  .c-button span {
+    background-color: #fff !important; }
+
+  .navbar-header {
+    position: relative; }
+
+  .navbar-header .navbar-brand {
+    position: absolute;
+    width: 100px;
+    left: 0; }
+
+  .navbar-collapse {
+    background: linear-gradient(to bottom, #36393c 0%, #3c6171 100%);
+    position: absolute;
+    top: 0;
+    height: 700px;
+    right: 0;
+    box-sizing: border-box; }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #1c2b2c; }
+
+  .top-nav .navbar .collapse .nav li {
+    border-bottom: 1px #86A0B1 solid; }
+    .top-nav .navbar .collapse .nav li a {
+      width: 220px;
+      box-sizing: border-box;
+      padding-left: 30px !important; }
+  .top-nav .navbar .collapse .nav .brand1 {
+    border-bottom: 0; }
+
+  .top-nav .navbar .collapse .nav > li {
+    margin-left: 0; }
+    .top-nav .navbar .collapse .nav > li a {
+      padding: 10px;
+      height: 40px;
+      font-size: 16px; }
+      .top-nav .navbar .collapse .nav > li a:hover {
+        background-color: #1c2b2c; } }
+
+/*# sourceMappingURL=cpgn.css.map */

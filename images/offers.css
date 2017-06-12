@@ -1,0 +1,284 @@
+li,
+em,
+a {
+  list-style-type: none;
+  font-style: normal;
+  text-decoration: none;
+}
+ul,
+menu,
+p,
+dir {
+  -webkit-padding-start: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  font-family: 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Arial', 'Helvetica,sans-serif';
+  list-style-type: none;
+}
+/*服务报价栏目样式*/
+.offers-margin {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*标题统一样式*/
+  /*解决方案*/
+}
+.offers-margin .offers-column {
+  width: 100%;
+  float: left;
+}
+.offers-margin .offers-column .cont-itm {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(162, 187, 194, 0.5);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(162, 187, 194, 0.5);
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(162, 187, 194, 0.5);
+  -o-box-shadow: 0px 2px 6px 0px rgba(162, 187, 194, 0.5);
+}
+.offers-margin .offers-column .cont-itm h3 {
+  height: 56px;
+  line-height: 56px;
+  background: #3ba1b0;
+  color: #fff;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.offers-margin .offers-column .cont-itm .words {
+  font-size: 14px;
+  line-height: 24px;
+  color: #949494;
+  padding: 15px;
+  display: inline-block;
+}
+.offers-margin .offers-column .cont-itm .words p {
+  min-height: 120px;
+}
+.offers-margin .offers-column .cont-itm .words em {
+  padding-top: 25px;
+  color: red;
+  float: left;
+  width: 100%;
+}
+.offers-margin .offers-column .cont-itm a {
+  display: block;
+  line-height: 36px;
+  color: #3ba1b0;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 1px #3ba1b0 solid;
+  text-decoration: none;
+}
+.offers-margin .offers-column .cont-itm a:hover {
+  background: #3ba1b0;
+  color: #fff;
+}
+.offers-margin .offers-column-title {
+  width: 100%;
+  float: left;
+}
+.offers-margin .offers-column-title p {
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+.offers-margin .offers-solution {
+  width: 100%;
+  float: left;
+}
+.offers-margin .offers-solution .off_sprit {
+  margin: 0 20px;
+  float: left;
+}
+.offers-margin .offers-solution .off_sprit .off_item {
+  text-align: center;
+  top: 20px;
+  position: relative;
+  float: left;
+}
+.offers-margin .offers-solution .off_sprit .off_item .icon-png {
+  display: inline-block;
+}
+.offers-margin .offers-solution .off_sprit .off_item strong {
+  display: block;
+  font-size: 18px;
+  color: #3ba1b0;
+  line-height: 50px;
+}
+.offers-margin .offers-solution .off_sprit .off_item span {
+  color: #3ba1b0;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+/*精英人物介绍*/
+.offers-figure {
+  width: 100%;
+  float: left;
+  background: url("../../images/banner_figure.jpg") no-repeat;
+  background-size: cover;
+  margin: 70px 0 0px;
+}
+.offers-figure h4 {
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  color: #fff;
+}
+.offers-figure .off-figure {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.offers-figure .off-figure li {
+  width: 100%;
+  float: left;
+}
+.offers-figure .off-figure li .figure {
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 35px;
+}
+.offers-figure .off-figure li .figure .off_fi {
+  width: 100%;
+  display: inline-block;
+}
+.offers-figure .off-figure li .figure .off_fi p { 
+  float: left;
+}
+.offers-figure .off-figure li .figure .off_fi span { 
+  line-height: 24px;
+  float:left;
+  color: #fff;
+  padding-left: 15px;
+  margin-top: 15px;
+}
+.offers-figure .off-figure li .figure .off_fi .fon {
+  font-size: 18px;
+}
+.offers-figure .off-figure li .figure .off-profile {
+  width: 100%;
+  display: inline-block;
+  max-height: 40px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.offers-figure .off-figure li .figure .off-profile p {
+  float: left; 
+  color: #fff;
+}
+.offers-figure .off-figure li .figure .off-profile span { 
+  color: #fff;
+}
+.offers-figure .off-figure li .figure .off-profile:hover {
+  max-height: 100px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+/*成功案例*/
+.off-cases {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+.off-cases p {
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+}
+.off-cases .off-ful-cases {
+  max-width: 920px;
+  margin: 0 auto;
+  position: relative;
+}
+.off-cases .off-ful-cases .off-ful {
+  width: 100%;
+  float: left;
+}
+.off-cases .off-ful-cases .right1 {
+  right: 0;
+  left: auto;
+}
+/*注册*/
+.dash-board {
+  width: 100%;
+  background: url(../../images/mult01_bg_bff.jpg) no-repeat;
+  float: left;
+}
+.dash-board p {
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 32px;
+  padding-bottom: 15px;
+  padding-top: 60px;
+  color: #fff;
+}
+.dash-board .dash-href {
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-bottom: 91px;
+  margin-top: 92px;
+}
+.dash-board .dash-href .btn-primary {
+  color: #444a4e;
+  background-color: #f0f0f0;
+  border-color: #f0f0f0;
+  padding: 15px 40px;
+  font-size: 22px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.dash-board .dash-href .btn-primary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+/*增加768以上媒体查询样式*/
+/*增加768以下媒体查询样式*/
+@media (max-width: 768px) {
+  .offers-margin .offers-column-title p,
+  .off-cases p,
+  .offers-figure h4 {
+    font-size: 18px;
+  } 
+  .offers-figure .off-figure li .figure {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/*增加992以下媒体查询样式*/
+@media screen and (max-width: 992px) {
+  .off-cases .off-ful-cases ul {
+    /*服务报价专业解决方案在992以下边距宽0*/
+    margin-left: 0px;
+  }
+  .off-cases .off-ful-cases ul li {
+    /*服务报价专业解决方案在992以下边li标签宽度100%，左右边距为15px，下边距为15px*/
+    padding: 0;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+  }
+}
